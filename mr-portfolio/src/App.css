@@ -1,7 +1,42 @@
 h1 {
+  font-size: 2.1em;
   margin: 0px;
 }
 
+h2 {
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  width: 90%
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* unvisited link */
+a:link {
+  color: rgba(255, 0, 0, 0.647);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(231, 125, 26);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 .App {
   text-align: center;
 }
@@ -45,12 +80,48 @@ h1 {
 .section {
   color: lightsteelblue;
   background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.about img {
+  height: 200px;
+  float: left;
+}
+
+.about-body {
+  flex: 1;
+  padding: 10px;
+}
+
+.blockus {
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
 }
 
 .projects {
   background-color: #4b5464;
   width: 90%;
-  display:inline-flex;
+  display:flex;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  /* to center the projects div */
+  /* flex: 1 0 auto; */
+  justify-content: center;
+  
+
   border-left-style: double;
   border-bottom-style: double;
   border-left-width: thick;
@@ -60,24 +131,104 @@ h1 {
   border-bottom-color: darkred;
 }
 
-.project-card {
-  background-color: #1a2c31;
-  height: 300px;
-  width: 270px;
-  display: block;
-  margin-top: 10px;
+.project-card-wrapper {
+  /* background-color: #1a2c31; */
+  display: flex;
+
+  /* A flex-basis of 200px sets the starting width */
+  /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+  flex: 1 0 200px;
+  /* padding: 10px; */
+  text-align: center;
+  /* height: auto; */
+  width: 33%;
+  /* flex-direction: column; */
+  margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 15px;
   align-items: center;
   justify-content: center;
-  padding: 25px
 }
 
-.project-desc {
+.project-card {
+  background-color: #1a2c31;
+  flex: 1 0 200px;
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-top-width: thick;
+  border-top-style: solid;
+  border-top-color:#457380;
+  border-left-color: #1a2c31;
+  border-bottom-color: #1a2c31;
+  border-right-width: thick;
+  border-right-style: solid;
+  border-right-color: #457380;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.project-header {
   color: lightsteelblue;
+  text-align: center;
+}
+
+.project-header p {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .project-image {
   position: relative;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  /* display: block; */
+}
+
+.resume-wrapper {
+  background-color: #4b5464;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #4b5464;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 90%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+.tail {
+  background-color: #4b5464;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid medium goldenrod;
+  color: green;
+  height: 150px;
+  width: 90%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+.aside {
+  margin-bottom: 10px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
 }
