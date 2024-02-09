@@ -203,7 +203,7 @@ a:active {
   height: auto;
   /* display: block; */
 }
-
+/* TODO: change res-wrapper to grid with heading, tech skills, soft skills and embedded res */
 .resume-wrapper {
   background-color: #4b5464;
   display: flex;
@@ -247,6 +247,15 @@ display: flex;
   height: 30px;
   align-items: center;
   margin: 5px;
+}
+
+.soft-skills {
+  /* display: flex; */
+}
+
+.customer-service {
+  background-color: black;
+  word-wrap: normal;
 }
 /* TODO: make the embedded box display block so its under skills, custserv, collab, and detail */
 .embedded-resume-box {

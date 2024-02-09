@@ -11,7 +11,10 @@ import css3Logo from "../src/images/CSS3_logo.svg"
 import jsLogo from "../src/images/js_logo_svg.svg"
 import nodeLogo from "../src/images/node_js_logo.svg"
 import reactLogo from "../src/images/reactLogo.svg"
-import mongoLogo from "../src/images/MongoDB_Fores-Green.svg"
+import mongoLogoDark from "../src/images/MongoDB_Fores-Green.svg"
+import mongoLogoLite from "../src/images/MongoDB_Spring-Green.svg"
+import mongoLogoWhite from "../src/images/MongoDB_White.svg"
+
 import arcLogo from "../src/images/ArcGIS_logo_240.png"
 import moon_phase from "../src/images/moon-phase-oakland-screen.png";
 
@@ -143,9 +146,9 @@ function App() {
         </h2>
         <div className="resume-wrapper">
           <div>
-            <h3>Technical Skills</h3>
             {/* <img>CSS Merit Badge</img> */}
             <div className="skills">
+            <h3>Technical Skills</h3>
               <ul className="tech-list">
                 <li>
                   <img
@@ -191,11 +194,10 @@ function App() {
                 </li>
                 <li>
                   <img
-                    src={mongoLogo}
+                    src={mongoLogoLite}
                     className="tech-logo"
                     alt="mongoDB logo"
                   ></img>
-                  MongoDB
                 </li>
                 <li>
                   <img
@@ -209,8 +211,17 @@ function App() {
               </ul>
             </div>
           </div>
-          <div>
-            <div><h3>Customer Service</h3></div>
+          <div className="soft-skills">
+            <div className="customer-service">
+              <h3>Customer Service</h3>
+              <p>This will be colorful! Nunc pharetra finibus est at efficitur.
+            Praesent sed congue diam. Integer gravida dui mauris, ut interdum
+            nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac
+            finibus porta. Nam quis arcu non lectus tincidunt fermentum.
+            Suspendisse aliquet orci porta quam semper imperdiet. Praesent
+            euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus
+            mollis diam, sit amet facilisis lectus blandit at.</p>
+            </div>
             <div><h3>Collaborative Problem-solving</h3></div>
             <div><h3>Detail-focused</h3></div>
           </div>
