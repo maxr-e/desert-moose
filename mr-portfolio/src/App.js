@@ -11,6 +11,7 @@ import css3Logo from "../src/images/CSS3_logo.svg"
 import jsLogo from "../src/images/js_logo_svg.svg"
 import nodeLogo from "../src/images/node_js_logo.svg"
 import reactLogo from "../src/images/reactLogo.svg"
+import MySQLLogo from "../src/images/mysql-official.svg"
 import mongoLogoDark from "../src/images/MongoDB_Fores-Green.svg"
 import mongoLogoLite from "../src/images/MongoDB_Spring-Green.svg"
 import mongoLogoWhite from "../src/images/MongoDB_White.svg"
@@ -141,92 +142,120 @@ function App() {
             </div>
           </div>
         </div>
-        <h2 id="resume">
-          <b>RESUME</b>
-        </h2>
+            <h2 id="resume">
+              <b>RESUME</b>
+            </h2>
         <div className="resume-wrapper">
-          <div>
-            {/* <img>CSS Merit Badge</img> */}
-            <div className="skills">
+          <div className="skills">
+          <div className="tech-skills">
             <h3>Technical Skills</h3>
-              <ul className="tech-list">
-                <li>
-                  <img
-                    src={htmlLogo}
-                    className="tech-logo"
-                    alt="html5 logo"
-                  ></img>
-                  HTML5
-                </li>
-                <li>
-                  <img
-                    src={css3Logo}
-                    className="tech-logo"
-                    alt="css3 logo"
-                  ></img>
-                  CSS3
-                </li>
-                <li>
-                  <img
-                    src={jsLogo}
-                    className="tech-logo"
-                    alt="javascript logo"
-                  ></img>
-                  JavaScript
-                </li>
-                <li>
-                  <img
-                    src={nodeLogo}
-                    className="tech-logo"
-                    alt="node.js logo"
-                  ></img>
-                  Node.js
-                </li>
-              </ul>
-              <ul className="tech-list">
-                <li>
-                  <img
-                    src={reactLogo}
-                    className="tech-logo"
-                    alt="react logo"
-                  ></img>
-                  React
-                </li>
-                <li>
-                  <img
-                    src={mongoLogoLite}
-                    className="tech-logo"
-                    alt="mongoDB logo"
-                  ></img>
-                </li>
-                <li>
-                  <img
-                    src={arcLogo}
-                    className="tech-logo"
-                    alt="arcGIS logo"
-                  ></img>
-                  ArcGIS
-                </li>
-                <li></li>
-              </ul>
-            </div>
+            {/* <img>CSS Merit Badge</img> */}
+            <ul className="tech-list">
+              <li>
+                <img
+                  src={htmlLogo}
+                  className="tech-logo"
+                  alt="html5 logo"
+                ></img>
+                HTML5
+              </li>
+              <li>
+                <img src={css3Logo} className="tech-logo" alt="css3 logo"></img>
+                CSS3
+              </li>
+              <li>
+                <img
+                  src={jsLogo}
+                  className="tech-logo"
+                  alt="javascript logo"
+                ></img>
+                JavaScript
+              </li>
+              <li>
+                <img
+                  src={nodeLogo}
+                  className="tech-logo"
+                  alt="node.js logo"
+                ></img>
+                Node.js
+              </li>
+              <li>
+                <img
+                  src={reactLogo}
+                  className="tech-logo"
+                  alt="react logo"
+                ></img>
+                React
+              </li>
+              <li>
+                <img
+                  src={MySQLLogo}
+                  className="tech-logo"
+                  alt="MySQL logo"
+                ></img>
+                MySQL
+              </li>
+              <li>
+                <img
+                  src={mongoLogoLite}
+                  className="tech-logo"
+                  alt="mongoDB logo"
+                ></img>
+              </li>
+              <li>
+                <img
+                  src={arcLogo}
+                  className="tech-logo"
+                  alt="arcGIS logo"
+                ></img>
+                ArcGIS
+              </li>
+              <li></li>
+            </ul>
           </div>
-          <div className="soft-skills">
+          {/* <div className="soft-skills"> */}
             <div className="customer-service">
               <h3>Customer Service</h3>
-              <p>This will be colorful! Nunc pharetra finibus est at efficitur.
-            Praesent sed congue diam. Integer gravida dui mauris, ut interdum
-            nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac
-            finibus porta. Nam quis arcu non lectus tincidunt fermentum.
-            Suspendisse aliquet orci porta quam semper imperdiet. Praesent
-            euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus
-            mollis diam, sit amet facilisis lectus blandit at.</p>
+              <p>
+                This will be colorful! Nunc pharetra finibus est at efficitur.
+                Praesent sed congue diam. Integer gravida dui mauris, ut
+                interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet
+                risus ac finibus porta. Nam quis arcu non lectus tincidunt
+                fermentum. Suspendisse aliquet orci porta quam semper imperdiet.
+                Praesent euismod mi justo, faucibus scelerisque risus cursus in.
+                Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+              </p>
             </div>
-            <div><h3>Collaborative Problem-solving</h3></div>
-            <div><h3>Detail-focused</h3></div>
+            <div className="collab-problem">
+              <h3>Collaborative Problem-solving</h3>
+              <p>
+                This will be colorful! Nunc pharetra finibus est at efficitur.
+                Praesent sed congue diam. Integer gravida dui mauris, ut
+                interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet
+                risus ac finibus porta. Nam quis arcu non lectus tincidunt
+                fermentum. Suspendisse aliquet orci porta quam semper imperdiet.
+                Praesent euismod mi justo, faucibus scelerisque risus cursus in.
+                Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+              </p>
+            </div>
+            <div className="detail-focused">
+              <h3>Detail-focused</h3>
+              <p>
+                This will be colorful! Nunc pharetra finibus est at efficitur.
+                Praesent sed congue diam. Integer gravida dui mauris, ut
+                interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet
+                risus ac finibus porta. Nam quis arcu non lectus tincidunt
+                fermentum. Suspendisse aliquet orci porta quam semper imperdiet.
+                Praesent euismod mi justo, faucibus scelerisque risus cursus in.
+                Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+              </p>
+            </div>
+          {/* </div> */}
           </div>
-          <div className="embedded-resume-box"><h3>Embedded PDF Resume</h3></div>
-        </div>  
+          <div className="embedded-resume-box">
+            <h3>Embedded PDF Resume</h3>
+          </div>
+        </div>
         <div></div>
         <h2 id="contact">
           <b>REACH OUT</b>
