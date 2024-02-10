@@ -6,6 +6,7 @@ import profilePic from "../src/images/mre_profile.png"
 import movieGeek from "../src/images/moviegeek.png";
 import cowGiraffeShrimp from "../src/images/rate-my-cow-giraffe-shrimp.png";
 import main_screen from "../src/images/main_screen.png";
+import meritBadge from "../src/images/programming_merit_badge.png"
 import htmlLogo from "../src/images/HTML5_Badge.svg"
 import css3Logo from "../src/images/CSS3_logo.svg"
 import jsLogo from "../src/images/js_logo_svg.svg"
@@ -146,10 +147,11 @@ function App() {
               <b>RESUME</b>
             </h2>
         <div className="resume-wrapper">
+          <div className="skills-wrapper">
           <div className="skills">
           <div className="tech-skills">
             <h3>Technical Skills</h3>
-            {/* <img>CSS Merit Badge</img> */}
+            <img src={meritBadge} clasnnName="tech-logo" alt="programming merit badge"></img>
             <ul className="tech-list">
               <li>
                 <img
@@ -213,7 +215,6 @@ function App() {
               <li></li>
             </ul>
           </div>
-          {/* <div className="soft-skills"> */}
             <div className="customer-service">
               <h3>Customer Service</h3>
               <p>
@@ -250,7 +251,7 @@ function App() {
                 Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
               </p>
             </div>
-          {/* </div> */}
+          </div>
           </div>
           <div className="embedded-resume-box">
             <h3>Embedded PDF Resume</h3>

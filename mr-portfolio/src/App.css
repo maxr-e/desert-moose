@@ -143,6 +143,8 @@ a:active {
   border-bottom-left-radius: 8px;
   border-left-color: darkred;
   border-bottom-color: darkred;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .project-card-wrapper {
@@ -207,7 +209,7 @@ a:active {
 .resume-wrapper {
   background-color: #4b5464;
   width: 90%;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 15px;
   /* justify-content: center; */
   border-left-style: double;
@@ -219,12 +221,34 @@ a:active {
   border-bottom-color: darkred;
 }
 
+.skills-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .skills {
   width: 90%;
   /* justify-content: center; */
   display: grid;
+  gap: 15px;
+  /* padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;; */
   align-items: center;
   place-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* border-top-width: thick;
+  border-top-style: solid;
+  border-top-color:#457380;
+  border-left-color: #1a2c31;
+  border-bottom-color: #1a2c31;
+  border-right-width: thick;
+  border-right-style: solid;
+  border-right-color: #457380;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px; */
   /* grid-template-columns: auto auto; */
   /* grid-template-areas: 'tech soft1' 'tech soft2' 'tech soft3'; */
 /* display: flex; */
@@ -233,6 +257,18 @@ a:active {
 
 .tech-skills {
   /* grid-area:"tech"; */
+  background-color: #1a2c31;
+  border-top-width: thick;
+  border-top-style: solid;
+  border-top-color:#457380;
+  border-left-color: #1a2c31;
+  border-bottom-color: #1a2c31;
+  border-right-width: thick;
+  border-right-style: solid;
+  border-right-color: #457380;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 10px;
   grid-column: 1;
   grid-row: 1 / span 3;
 }
@@ -265,25 +301,55 @@ a:active {
 }
 
 .customer-service {
-  background-color: black;
+  background-color: #1a2c31;
   /* grid-area: "soft1"; */
   grid-column: 2;
   grid-row: 1;
   word-wrap: normal;
+  border-top-width: thick;
+  border-top-style: solid;
+  border-top-color:#457380;
+  border-left-color: #1a2c31;
+  border-bottom-color: #1a2c31;
+  border-right-width: thick;
+  border-right-style: solid;
+  border-right-color: #457380;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .collab-problem {
-  background-color: aqua;
+  background-color: #1a2c31;
   /* grid-area: "soft2"; */
   grid-column: 2;
   grid-row: 2;
+  border-top-width: thick;
+  border-top-style: solid;
+  border-top-color:#457380;
+  border-left-color: #1a2c31;
+  border-bottom-color: #1a2c31;
+  border-right-width: thick;
+  border-right-style: solid;
+  border-right-color: #457380;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .detail-focused {
-  background-color: #457380;
+  background-color: #1a2c31;
   /* grid-area: "soft3"; */
   grid-column: 2;
   grid-row: 3;
+  border-top-width: thick;
+  border-top-style: solid;
+  border-top-color:#457380;
+  border-left-color: #1a2c31;
+  border-bottom-color: #1a2c31;
+  border-right-width: thick;
+  border-right-style: solid;
+  border-right-color: #457380;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 /* TODO: make the embedded box display block so its under skills, custserv, collab, and detail */
