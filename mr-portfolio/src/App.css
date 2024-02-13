@@ -354,8 +354,22 @@ a:active {
 
 /* TODO: make the embedded box display block so its under skills, custserv, collab, and detail */
 .embedded-resume-box {
-  /* grid-area: "resume"; */
-  /* display: block; */
+  display: flex;
+  justify-content: center;
+}
+
+#pdf-container {
+  width: 90%;
+  border-top-width: thick;
+  border-top-style: solid;
+  border-top-color:#457380;
+  border-left-color: #1a2c31;
+  border-bottom-color: #1a2c31;
+  border-right-width: thick;
+  border-right-style: solid;
+  border-right-color: #457380;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .footer {

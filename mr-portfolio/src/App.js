@@ -1,6 +1,7 @@
 import logo from "../src/images/logo.svg";
 import cute from "../src/images/cute-moose-flat.svg";
 import "./App.css";
+import reactPdfEmbed from "./util/reactPdfEmbed.js";
 
 import profilePic from "../src/images/mre_profile.png"
 import movieGeek from "../src/images/moviegeek.png";
@@ -15,8 +16,6 @@ import reactLogo from "../src/images/reactLogo.svg"
 import MySQLLogo from "../src/images/mysql-official.svg"
 import mongoLogoDark from "../src/images/MongoDB_Fores-Green.svg"
 import mongoLogoLite from "../src/images/MongoDB_Spring-Green.svg"
-import mongoLogoWhite from "../src/images/MongoDB_White.svg"
-
 import arcLogo from "../src/images/ArcGIS_logo_240.png"
 import moon_phase from "../src/images/moon-phase-oakland-screen.png";
 
@@ -255,6 +254,9 @@ function App() {
           </div>
           <div className="embedded-resume-box">
             <h3>Embedded PDF Resume</h3>
+            <pdfEmbed/>
+            {/*the possible problem this isnt working is bc pdfObject renders <embed> into a html, not into another js file. react-pdf was a possible solution.*/}
+            {/* <div id="pdf-container"></div> */}
           </div>
         </div>
         <div></div>
