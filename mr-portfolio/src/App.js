@@ -5,7 +5,7 @@ import "./App.css";
 // import PDFViewerif from "./components/iframepdf.js";
 // import PDFViewer from "./components/reactpdf.js";
 // import PDFWorker from "./components/reactpdfworker.js";
-import PDFViewerDist from "./components/pdfjsDist.js";
+// import PDFViewerDist from "./components/pdfjsDist.js";
 
 
 import profilePic from "../src/images/mre_profile.png"
@@ -259,8 +259,12 @@ function App() {
           </div>
           <div className="embedded-resume-box">
             <h3>Embedded PDF Resume</h3>
+            <div className="w-full h-fit flex flex-col items-center">
+      <embed src="/Royal-Eisenberg_Resume.pdf" type="application/pdf" className="w-full h-[990px] hidden sm:inline" />
+      <a href="/Royal-Eisenberg_Resume.pdf" download className="text-xl sm:hidden">Download Resume</a>
+</div>
             {/* <PDFWorker/> */}
-            <PDFViewerDist/>
+            {/* <PDFViewerDist/> */}
             {/* <PDFViewer/> */}
             <h3>iframed PDF Resume</h3>
             {/* <PDFViewerif/> */}
