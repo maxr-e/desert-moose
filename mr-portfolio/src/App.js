@@ -1,7 +1,12 @@
 import logo from "../src/images/logo.svg";
 import cute from "../src/images/cute-moose-flat.svg";
 import "./App.css";
-import reactPdfEmbed from "./util/reactPdfEmbed.js";
+// import reactPdfEmbed from "./util/reactPdfEmbed.js";
+// import PDFViewerif from "./components/iframepdf.js";
+// import PDFViewer from "./components/reactpdf.js";
+// import PDFWorker from "./components/reactpdfworker.js";
+import PDFViewerDist from "./components/pdfjsDist.js";
+
 
 import profilePic from "../src/images/mre_profile.png"
 import movieGeek from "../src/images/moviegeek.png";
@@ -18,6 +23,7 @@ import mongoLogoDark from "../src/images/MongoDB_Fores-Green.svg"
 import mongoLogoLite from "../src/images/MongoDB_Spring-Green.svg"
 import arcLogo from "../src/images/ArcGIS_logo_240.png"
 import moon_phase from "../src/images/moon-phase-oakland-screen.png";
+
 
 function App() {
   return (
@@ -47,9 +53,8 @@ function App() {
             Greetings, I'm Max. You've found my little corner of the internet!
           </p>
         </div>
-        <break></break>
         <div className="about">
-          <img src={profilePic} alt="Portrait pf Max"></img>
+          <img src={profilePic} alt="Portrait of Max"></img>
           <div className="about-body">
             <p>
               Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
@@ -150,7 +155,7 @@ function App() {
           <div className="skills">
           <div className="tech-skills">
             <h3>Technical Skills</h3>
-            <img src={meritBadge} clasnnName="tech-logo" alt="programming merit badge"></img>
+            <img src={meritBadge} className="tech-logo" alt="programming merit badge"></img>
             <ul className="tech-list">
               <li>
                 <img
@@ -254,7 +259,11 @@ function App() {
           </div>
           <div className="embedded-resume-box">
             <h3>Embedded PDF Resume</h3>
-            <pdfEmbed/>
+            {/* <PDFWorker/> */}
+            <PDFViewerDist/>
+            {/* <PDFViewer/> */}
+            <h3>iframed PDF Resume</h3>
+            {/* <PDFViewerif/> */}
             {/*the possible problem this isnt working is bc pdfObject renders <embed> into a html, not into another js file. react-pdf was a possible solution.*/}
             {/* <div id="pdf-container"></div> */}
           </div>
@@ -273,7 +282,7 @@ function App() {
             euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus
             mollis diam, sit amet facilisis lectus blandit at.
           </div>
-          <aside class="aside">
+          <aside className="aside">
             <h2>Want a lovely e-card?</h2>
             <form>
               <input type="text" placeholder="E-mail address" />
