@@ -239,20 +239,6 @@ a:active {
   place-items: center;
   margin-top: 15px;
   margin-bottom: 15px;
-  /* border-top-width: thick;
-  border-top-style: solid;
-  border-top-color:#457380;
-  border-left-color: #1a2c31;
-  border-bottom-color: #1a2c31;
-  border-right-width: thick;
-  border-right-style: solid;
-  border-right-color: #457380;
-  border-top-left-radius: 8px;
-  border-bottom-right-radius: 8px; */
-  /* grid-template-columns: auto auto; */
-  /* grid-template-areas: 'tech soft1' 'tech soft2' 'tech soft3'; */
-/* display: flex; */
-/* flex-direction: column; */
 }
 
 .tech-skills {
@@ -354,12 +340,28 @@ a:active {
 
 /* TODO: make the embedded box display block so its under skills, custserv, collab, and detail */
 .embedded-resume-box {
-  display: flex;
-  justify-content: center;
+  display: block;
+  /* justify-content: center; */
 }
 
 #pdf-container {
+  /* TODO: make pdf container invisible on small screens */
   width: 90%;
+  border-top-width: thick;
+  border-top-style: solid;
+  border-top-color:#457380;
+  border-left-color: #1a2c31;
+  border-bottom-color: #1a2c31;
+  border-right-width: thick;
+  border-right-style: solid;
+  border-right-color: #457380;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#download-link-btn {
+  background-color: #1a2c31;
+  font-size: 1.5rem;
   border-top-width: thick;
   border-top-style: solid;
   border-top-color:#457380;
@@ -409,6 +411,5 @@ a:active {
 .aside {
   margin-bottom: 10px;
   /* display: flex;
-  flex-wrap: wrap;
   justify-content: center; */
 }
