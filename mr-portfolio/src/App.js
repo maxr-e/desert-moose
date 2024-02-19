@@ -57,11 +57,7 @@ function App() {
           <img src={profilePic} alt="Portrait of Max"></img>
           <div className="about-body">
             <p>
-              Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-              Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean
-              sed mollis diam. Nunc aliquet risus ac finibus porta. Nam quis
-              arcu non lectus tincidunt fermentum. Suspendisse aliquet orci
-              porta quam semper imperdiet.
+            I've had a pretty eclectic life. Pet supply sales, animal clinic assistant, university housing counselor, pedicab operator, science instructor, municipal aquarium volunteer, wood boat renovator, construction project bid facilitator, water service technician, water system inspector, handyman... all experiences that have given me a well-rounded set of hard and soft skills. But the one constant interest in my life that has had an effect in everything I set myself to is... programming! GIS/GPS projects with pedicabbing and sailing, automation with aquarium and construction project analysis, coding with water service technology, handheld sensors and sales databases- all roads lead to Rome, and my Rome is programming!
             </p>
           </div>
         </div>
