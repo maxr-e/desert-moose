@@ -41,6 +41,70 @@ a:active {
   text-align: center;
 }
 
+/* TODO: Animate a fade out of the logo screen to reveal the top of the page */
+/* .animated {
+  background-image: url("../src/images/cute-moose-flat.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+  padding-top:95px;
+  z-index: 2;
+  /* margin-bottom:60px; */
+  /* -webkit-animation-duration: 2s;animation-duration: 2s; */
+  /* -webkit-animation-fill-mode: both; animation-fill-mode: both; */
+/* } */
+
+/* @-webkit-keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+  /* 0% {opacity: 1;}
+  100% {opacity: 0;} */
+/* } */
+
+/*@keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+  0% {opacity: 1;}
+  100% {opacity: 0;} */
+/* } */
+
+/* .fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+} */
+
+.animated {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("../src/images/cute-moose-flat.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  z-index: 2;
+  opacity: 1;
+  animation: fadeOut 1s ease-in-out forwards; /* Use forwards to keep the final state */
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    z-index: 2;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+/* Add a class to control the delay */
+.delayed {
+  animation-delay: 1s; /* Delay the start of the animation by 2 seconds */
+}
+
 .logo {
   height: 40vmin;
   pointer-events: none;
@@ -53,14 +117,21 @@ a:active {
 } */
 
 .header {
-  background-color: #282c34;
+  /* background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(144, 123, 123);
+  color: rgb(144, 123, 123); */
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
@@ -102,7 +173,7 @@ a:active {
 .about {
   display: flex;
   width: 70%;
-  margin-bottom: 15px;
+  margin-bottom: 1rem
 }
 
 .about img {
@@ -113,14 +184,19 @@ a:active {
 .about-body {
   flex: 1;
   padding: 10px;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
 }
 
-.blockus {
+.howdy {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   width: 100%;
   display: flex;
   /* flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
+  font-size: 1.2rem;
 }
 
 .projects {
@@ -211,6 +287,7 @@ a:active {
   width: 90%;
   margin-top: 10px;
   margin-bottom: 15px;
+  padding-bottom: 1rem;
   /* justify-content: center; */
   border-left-style: double;
   border-bottom-style: double;
@@ -341,12 +418,14 @@ a:active {
 /* TODO: make the embedded box display block so its under skills, custserv, collab, and detail */
 .embedded-resume-box {
   display: block;
+  padding-bottom: 1.5rem;
   /* justify-content: center; */
 }
 
 #pdf-container {
   /* TODO: make pdf container invisible on small screens */
   width: 90%;
+  height: 40rem;
   border-top-width: thick;
   border-top-style: solid;
   border-top-color:#457380;
@@ -362,6 +441,7 @@ a:active {
 #download-link-btn {
   background-color: #1a2c31;
   font-size: 1.5rem;
+
   border-top-width: thick;
   border-top-style: solid;
   border-top-color:#457380;

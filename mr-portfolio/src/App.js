@@ -28,11 +28,12 @@ import moon_phase from "../src/images/moon-phase-oakland-screen.png";
 function App() {
   return (
     <div className="App">
-      <header className="header">
-        <img src={cute} className="logo" alt="logo"></img>
-      </header>
+      {/* <header className="header"> */}
+        {/* <img src={cute} className="logo" alt="logo"></img> */}
+      {/* </header> */}
+      <div className="animated delayed"></div>
       <div className="section">
-        <div className="blockus">
+        <div className="header">
           <h1>Welcome to my Portfolio Page</h1>
         </div>
         <nav>
@@ -48,7 +49,7 @@ function App() {
             </li>
           </ul>
         </nav>
-        <div className="blockus">
+        <div className="howdy">
           <p>
             Greetings, I'm Max. You've found my little corner of the internet!
           </p>
