@@ -41,38 +41,6 @@ a:active {
   text-align: center;
 }
 
-/* TODO: Animate a fade out of the logo screen to reveal the top of the page */
-/* .animated {
-  background-image: url("../src/images/cute-moose-flat.svg");
-  background-repeat: no-repeat;
-  background-position:center;
-  background-attachment: fixed;
-  padding-top:95px;
-  z-index: 2;
-  /* margin-bottom:60px; */
-  /* -webkit-animation-duration: 2s;animation-duration: 2s; */
-  /* -webkit-animation-fill-mode: both; animation-fill-mode: both; */
-/* } */
-
-/* @-webkit-keyframes fadeOut {
-  from {opacity: 1;}
-  to {opacity: 0;}
-  /* 0% {opacity: 1;}
-  100% {opacity: 0;} */
-/* } */
-
-/*@keyframes fadeOut {
-  from {opacity: 1;}
-  to {opacity: 0;}
-  0% {opacity: 1;}
-  100% {opacity: 0;} */
-/* } */
-
-/* .fadeOut {
-  -webkit-animation-name: fadeOut;
-  animation-name: fadeOut;
-} */
-
 .animated {
   position: fixed;
   top: 0;
@@ -82,11 +50,10 @@ a:active {
   background-image: url("../src/images/cute-moose-flat.svg");
   background-repeat: no-repeat;
   background-position: center;
-  /* background-attachment: fixed; */
   background-size: cover;
   z-index: 2;
   opacity: 1;
-  animation: fadeOut 1s ease-in-out forwards; /* Use forwards to keep the final state */
+  animation: fadeOut 1s ease-in-out forwards;
 }
 
 @keyframes fadeOut {
@@ -100,9 +67,8 @@ a:active {
   }
 }
 
-/* Add a class to control the delay */
 .delayed {
-  animation-delay: 1s; /* Delay the start of the animation by 2 seconds */
+  animation-delay: 1s;
 }
 
 .logo {
@@ -110,26 +76,11 @@ a:active {
   pointer-events: none;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .header {
-  /* background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(144, 123, 123); */
   padding-top: 2rem;
   padding-bottom: 1rem;
   width: 100%;
   display: flex;
-  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
 }
@@ -139,6 +90,7 @@ a:active {
   margin: 0;
   padding: 0;
 }
+
 .navbar li{
   flex: auto;
   display: inline;
@@ -147,21 +99,11 @@ a:active {
   border-width: thin;
   font-size: .9em;
   padding: 2px;
-  /* margin-top: 10px; */
   margin-left: 5px;
   margin-right: 5px;
 
 }
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
-/* TODO: create cardholder and card for projects */
 .section {
   color: lightsteelblue;
   background-color: black;
@@ -193,7 +135,6 @@ a:active {
   padding-bottom: 1rem;
   width: 100%;
   display: flex;
-  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
@@ -203,15 +144,9 @@ a:active {
   background-color: #4b5464;
   width: 90%;
   display:flex;
-  
   flex-direction: row;
   flex-wrap: wrap;
-
-  /* to center the projects div */
-  /* flex: 1 0 auto; */
   justify-content: center;
-  
-
   border-left-style: double;
   border-bottom-style: double;
   border-left-width: thick;
@@ -224,17 +159,11 @@ a:active {
 }
 
 .project-card-wrapper {
-  /* background-color: #1a2c31; */
   display: flex;
-
-  /* A flex-basis of 200px sets the starting width */
   /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
   flex: 1 0 200px;
-  /* padding: 10px; */
   text-align: center;
-  /* height: auto; */
   width: 33%;
-  /* flex-direction: column; */
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
@@ -279,16 +208,14 @@ a:active {
 .project-image img {
   width: 100%;
   height: auto;
-  /* display: block; */
 }
-/* TODO: change res-wrapper to grid with heading, tech skills, soft skills and embedded res */
+
 .resume-wrapper {
   background-color: #4b5464;
   width: 90%;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 1rem;
-  /* justify-content: center; */
   border-left-style: double;
   border-bottom-style: double;
   border-left-width: thick;
@@ -305,13 +232,8 @@ a:active {
 
 .skills {
   width: 90%;
-  /* justify-content: center; */
   display: grid;
   gap: 15px;
-  /* padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;; */
   align-items: center;
   place-items: center;
   margin-top: 15px;
@@ -319,7 +241,6 @@ a:active {
 }
 
 .tech-skills {
-  /* grid-area:"tech"; */
   background-color: #1a2c31;
   border-top-width: thick;
   border-top-style: solid;
@@ -358,14 +279,8 @@ a:active {
   margin: 5px;
 }
 
-.soft-skills {
-  /* grid-area: "soft"; */
-  /* display: flex; */
-}
-
 .customer-service {
   background-color: #1a2c31;
-  /* grid-area: "soft1"; */
   grid-column: 2;
   grid-row: 1;
   word-wrap: normal;
@@ -383,7 +298,6 @@ a:active {
 
 .collab-problem {
   background-color: #1a2c31;
-  /* grid-area: "soft2"; */
   grid-column: 2;
   grid-row: 2;
   border-top-width: thick;
@@ -400,7 +314,6 @@ a:active {
 
 .detail-focused {
   background-color: #1a2c31;
-  /* grid-area: "soft3"; */
   grid-column: 2;
   grid-row: 3;
   border-top-width: thick;
@@ -415,11 +328,9 @@ a:active {
   border-bottom-right-radius: 8px;
 }
 
-/* TODO: make the embedded box display block so its under skills, custserv, collab, and detail */
 .embedded-resume-box {
   display: block;
   padding-bottom: 1.5rem;
-  /* justify-content: center; */
 }
 
 #pdf-container {
@@ -464,7 +375,6 @@ a:active {
   margin-bottom: 15px;
   text-align: center;
   justify-content: center;
-
   border-left-style: double;
   border-bottom-style: double;
   border-left-width: thick;
@@ -474,7 +384,7 @@ a:active {
   border-bottom-color: darkred;
 }
 
-.tail {
+.contact-methods {
   background-color: #4b5464;
   display: flex;
   flex-wrap: wrap;
@@ -490,6 +400,4 @@ a:active {
 
 .aside {
   margin-bottom: 10px;
-  /* display: flex;
-  justify-content: center; */
 }

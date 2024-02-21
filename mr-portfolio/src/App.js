@@ -227,40 +227,19 @@ function App() {
               <div className="customer-service">
                 <h3>Customer Service</h3>
                 <p>
-                  This will be colorful! Nunc pharetra finibus est at efficitur.
-                  Praesent sed congue diam. Integer gravida dui mauris, ut
-                  interdum nunc egestas sed. Aenean sed mollis diam. Nunc
-                  aliquet risus ac finibus porta. Nam quis arcu non lectus
-                  tincidunt fermentum. Suspendisse aliquet orci porta quam
-                  semper imperdiet. Praesent euismod mi justo, faucibus
-                  scelerisque risus cursus in. Sed rhoncus mollis diam, sit amet
-                  facilisis lectus blandit at.
+                Customer empathy has been another common theme throughout my professional career. It's easy for everyone to see the benefits of a pet stroller unless you understand how a pet parent of a sick animal feels! Knowing the common speed-bumps customers run into when looking for, trying out, or returning a product allows for anticipating issues before they occur. Being able to meet a customer at their level helps develop trust and better communication, a standard in regularly exceeding expectations. My 15+ years of customer care  over several fields has given me many tools for championing the customer's voice.
                 </p>
               </div>
               <div className="collab-problem">
                 <h3>Collaborative Problem-solving</h3>
                 <p>
-                  This will be colorful! Nunc pharetra finibus est at efficitur.
-                  Praesent sed congue diam. Integer gravida dui mauris, ut
-                  interdum nunc egestas sed. Aenean sed mollis diam. Nunc
-                  aliquet risus ac finibus porta. Nam quis arcu non lectus
-                  tincidunt fermentum. Suspendisse aliquet orci porta quam
-                  semper imperdiet. Praesent euismod mi justo, faucibus
-                  scelerisque risus cursus in. Sed rhoncus mollis diam, sit amet
-                  facilisis lectus blandit at.
+                Working in several large organizations has given me the opportunity to participate in projects with diverse teammates, skill-sets, authority and stake-holders. I know how to assist in a supportive role, participate as an expert advisor, or lead the project within any scope required, across several departments. Learning about your teammate's strengths and areas of improvement can speed development and build trust and broaden colleague's skills. Communication is critical in order to roll with dynamic demands and constraints. Innovation and encouraging different ideas among the team will ultimately surpass the customer's expectations. These are hallmarks of effective collaboration I've become very familiar with.
                 </p>
               </div>
               <div className="detail-focused">
                 <h3>Detail-focused</h3>
                 <p>
-                  This will be colorful! Nunc pharetra finibus est at efficitur.
-                  Praesent sed congue diam. Integer gravida dui mauris, ut
-                  interdum nunc egestas sed. Aenean sed mollis diam. Nunc
-                  aliquet risus ac finibus porta. Nam quis arcu non lectus
-                  tincidunt fermentum. Suspendisse aliquet orci porta quam
-                  semper imperdiet. Praesent euismod mi justo, faucibus
-                  scelerisque risus cursus in. Sed rhoncus mollis diam, sit amet
-                  facilisis lectus blandit at.
+                My attention to detail has served me well through challenges I face. Precision and reliability can conflict with time-management, but I have delivered results from scheduled and emergency field-calls, to audits of thousands of customer consumption and billing accounts, to flawless inventory ordering and control. I am keenly observant and persistent, sharpened through my studies of the natural, dynamic world of marine biology and marketing to customers in real-time. I have practiced high-level technical, emotional and logical communication from reporting on water equipment evaluation, treatment processes and BMPs, counseling, college and grade school instruction to presenting for public stakeholders. These experiences have lent to clean code and quick bug fixing in my programming.
                 </p>
               </div>
             </div>
@@ -281,15 +260,20 @@ function App() {
           <b>REACH OUT</b>
         </h2>
         <div className="footer">
-          <div className="tail">
-            This will be colorful! Nunc pharetra finibus est at efficitur.
-            Praesent sed congue diam. Integer gravida dui mauris, ut interdum
-            nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac
-            finibus porta. Nam quis arcu non lectus tincidunt fermentum.
-            Suspendisse aliquet orci porta quam semper imperdiet. Praesent
-            euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus
-            mollis diam, sit amet facilisis lectus blandit at.
+          <div className="contact-methods">
+            Email me at maxroyal.eisenberg@gmail.com, find me at LinkedIn and GitHub, and give me a shout at X (formerly Twitter)
           </div>
+          
+          {/* TODO: Make icons links to my media pages */}
+          <div className="flex row-span-1 items-center py-16">
+        <a href="https://github.com/ryansheehy0" target="_blank">
+          <img src="/logos/github.svg"/>
+        </a>
+        <a href="https://www.linkedin.com/in/ryan-sheehy-8513a5249/" target="_blank">
+          <img src="/logos/linked-in.svg"/>
+        </a>
+
+      </div>
           <aside className="aside">
             <h2>Want a lovely e-card?</h2>
             <p>I'll send you a random and unique short dialog of two popular fictional characters quoting an inspitational historic figure! Who knows, maybe it will forever change the trajectory of your life for the better.</p>
