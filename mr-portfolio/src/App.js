@@ -22,15 +22,14 @@ import MySQLLogo from "../src/images/mysql-official.svg"
 import mongoLogoDark from "../src/images/MongoDB_Fores-Green.svg"
 import mongoLogoLite from "../src/images/MongoDB_Spring-Green.svg"
 import arcLogo from "../src/images/ArcGIS_logo_240.png"
+// import githubLogo from "../public/logos/github.svg"
+// import linkedinLogo from "../public/logos/linked-in.svg"
 import moon_phase from "../src/images/moon-phase-oakland-screen.png";
 
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="header"> */}
-        {/* <img src={cute} className="logo" alt="logo"></img> */}
-      {/* </header> */}
       <div className="animated delayed"></div>
       <div className="section">
         <div className="header">
@@ -58,7 +57,18 @@ function App() {
           <img src={profilePic} alt="Portrait of Max"></img>
           <div className="about-body">
             <p>
-            I've had a pretty eclectic life. Pet supply sales, animal clinic assistant, university housing counselor, pedicab operator, science instructor, municipal aquarium volunteer, wood boat renovator, construction project bid facilitator, water service technician, water system inspector, handyman... all experiences that have given me a well-rounded set of hard and soft skills. But the one constant interest in my life that has had an effect in everything I set myself to is... programming! GIS/GPS projects with pedicabbing and sailing, automation with aquarium and construction project analysis, coding with water service technology, handheld sensors and sales databases- all roads lead to Rome, and my Rome is programming!
+              I've had a pretty eclectic life. Pet supply sales, animal clinic
+              assistant, university housing counselor, pedicab operator, science
+              instructor, municipal aquarium volunteer, wood boat renovator,
+              construction project bid facilitator, water service technician,
+              water system inspector, handyman... all experiences that have
+              given me a well-rounded set of hard and soft skills. But the one
+              constant interest in my life that has had an effect in everything
+              I set myself to is... programming! GIS/GPS projects with
+              pedicabbing and sailing, automation with aquarium and construction
+              project analysis, coding with water service technology, handheld
+              sensors and sales databases- all roads lead to Rome, and my Rome
+              is programming!
             </p>
           </div>
         </div>
@@ -227,19 +237,53 @@ function App() {
               <div className="customer-service">
                 <h3>Customer Service</h3>
                 <p>
-                Customer empathy has been another common theme throughout my professional career. It's easy for everyone to see the benefits of a pet stroller unless you understand how a pet parent of a sick animal feels! Knowing the common speed-bumps customers run into when looking for, trying out, or returning a product allows for anticipating issues before they occur. Being able to meet a customer at their level helps develop trust and better communication, a standard in regularly exceeding expectations. My 15+ years of customer care  over several fields has given me many tools for championing the customer's voice.
+                  Customer empathy has been another common theme throughout my
+                  professional career. It's easy for everyone to see the
+                  benefits of a pet stroller unless you understand how a pet
+                  parent of a sick animal feels! Knowing the common speed-bumps
+                  customers run into when looking for, trying out, or returning
+                  a product allows for anticipating issues before they occur.
+                  Being able to meet a customer at their level helps develop
+                  trust and better communication, a standard in regularly
+                  exceeding expectations. My 15+ years of customer care over
+                  several fields has given me many tools for championing the
+                  customer's voice.
                 </p>
               </div>
               <div className="collab-problem">
                 <h3>Collaborative Problem-solving</h3>
                 <p>
-                Working in several large organizations has given me the opportunity to participate in projects with diverse teammates, skill-sets, authority and stake-holders. I know how to assist in a supportive role, participate as an expert advisor, or lead the project within any scope required, across several departments. Learning about your teammate's strengths and areas of improvement can speed development and build trust and broaden colleague's skills. Communication is critical in order to roll with dynamic demands and constraints. Innovation and encouraging different ideas among the team will ultimately surpass the customer's expectations. These are hallmarks of effective collaboration I've become very familiar with.
+                  Working in several large organizations has given me the
+                  opportunity to participate in projects with diverse teammates,
+                  skill-sets, authority and stake-holders. I know how to assist
+                  in a supportive role, participate as an expert advisor, or
+                  lead the project within any scope required, across several
+                  departments. Learning about your teammate's strengths and
+                  areas of improvement can speed development and build trust and
+                  broaden colleague's skills. Communication is critical in order
+                  to roll with dynamic demands and constraints. Innovation and
+                  encouraging different ideas among the team will ultimately
+                  surpass the customer's expectations. These are hallmarks of
+                  effective collaboration I've become very familiar with.
                 </p>
               </div>
               <div className="detail-focused">
                 <h3>Detail-focused</h3>
                 <p>
-                My attention to detail has served me well through challenges I face. Precision and reliability can conflict with time-management, but I have delivered results from scheduled and emergency field-calls, to audits of thousands of customer consumption and billing accounts, to flawless inventory ordering and control. I am keenly observant and persistent, sharpened through my studies of the natural, dynamic world of marine biology and marketing to customers in real-time. I have practiced high-level technical, emotional and logical communication from reporting on water equipment evaluation, treatment processes and BMPs, counseling, college and grade school instruction to presenting for public stakeholders. These experiences have lent to clean code and quick bug fixing in my programming.
+                  My attention to detail has served me well through challenges I
+                  face. Precision and reliability can conflict with
+                  time-management, but I have delivered results from scheduled
+                  and emergency field-calls, to audits of thousands of customer
+                  consumption and billing accounts, to flawless inventory
+                  ordering and control. I am keenly observant and persistent,
+                  sharpened through my studies of the natural, dynamic world of
+                  marine biology and marketing to customers in real-time. I have
+                  practiced high-level technical, emotional and logical
+                  communication from reporting on water equipment evaluation,
+                  treatment processes and BMPs, counseling, college and grade
+                  school instruction to presenting for public stakeholders.
+                  These experiences have lent to clean code and quick bug fixing
+                  in my programming.
                 </p>
               </div>
             </div>
@@ -251,9 +295,9 @@ function App() {
               id="pdf-container"
             />
           </div>
-            <a
-              href="/Royal-Eisenberg_Resume.pdf" download id="download-link-btn">Download Resume
-            </ a>
+          <a href="/Royal-Eisenberg_Resume.pdf" download id="download-link-btn">
+            Download Resume
+          </a>
         </div>
         <div></div>
         <h2 id="contact">
@@ -261,27 +305,33 @@ function App() {
         </h2>
         <div className="footer">
           <div className="contact-methods">
-            Email me at maxroyal.eisenberg@gmail.com, find me at LinkedIn and GitHub, and give me a shout at X (formerly Twitter)
+            <p>Email me at maxroyal.eisenberg@gmail.com, find me at LinkedIn and
+            GitHub, and give me a shout at X (formerly Twitter)</p>
           </div>
-          
-          {/* TODO: Make icons links to my media pages */}
-          <div className="flex row-span-1 items-center py-16">
-        <a href="https://github.com/ryansheehy0" target="_blank">
-          <img src="/logos/github.svg"/>
-        </a>
-        <a href="https://www.linkedin.com/in/ryan-sheehy-8513a5249/" target="_blank">
-          <img src="/logos/linked-in.svg"/>
-        </a>
-
-      </div>
-          <aside className="aside">
+          <div className="contact-icons">
+            <a href="https://github.com/maxr-e" target="_blank">
+              <img src="/logos/github.svg" />
+            </a>
+            <a href="https://www.linkedin.com/in/maximilian-r-e" target="_blank">
+              <img src="/logos/linked-in.svg" />
+            </a>
+            <a href="https://twitter.com/mx_mxwell" target="_blank">
+              <img className="xx"src="/logos/x_logo.svg" />
+            </a>
+          </div>
+          {/* <aside className="aside">
             <h2>Want a lovely e-card?</h2>
-            <p>I'll send you a random and unique short dialog of two popular fictional characters quoting an inspitational historic figure! Who knows, maybe it will forever change the trajectory of your life for the better.</p>
+            <p>
+              I'll send you a random and unique short dialog of two popular
+              fictional characters quoting an inspitational historic figure! Who
+              knows, maybe it will forever change the trajectory of your life
+              for the better.
+            </p>
             <form>
               <input type="text" placeholder="E-mail address" />
               <button>Submit</button>
             </form>
-          </aside>
+          </aside> */}
         </div>
       </div>
     </div>

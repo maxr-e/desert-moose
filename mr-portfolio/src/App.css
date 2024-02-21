@@ -352,7 +352,6 @@ a:active {
 #download-link-btn {
   background-color: #1a2c31;
   font-size: 1.5rem;
-
   border-top-width: thick;
   border-top-style: solid;
   border-top-color:#457380;
@@ -369,7 +368,7 @@ a:active {
   background-color: #4b5464;
   display: flex;
   flex-wrap: wrap;
-  height: 300px;
+  /* height: 300px; */
   width: 90%;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -385,17 +384,38 @@ a:active {
 }
 
 .contact-methods {
-  background-color: #4b5464;
+  background-color: #1a2c31;
   display: flex;
   flex-wrap: wrap;
-  border: solid medium goldenrod;
-  color: rgb(144, 123, 123);
-  height: 150px;
+  align-items: center;
+  border-top-width: thick;
+  border-top-style: solid;
+  border-top-color:#457380;
+  border-left-color: #1a2c31;
+  border-bottom-color: #1a2c31;
+  border-right-width: thick;
+  border-right-style: solid;
+  border-right-color: #457380;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
   width: 90%;
   margin-top: 15px;
   margin-bottom: 15px;
   text-align: center;
+  font-size: 1.5rem;
   justify-content: center;
+}
+
+.contact-icons {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
+}
+
+.xx {
+  margin-top: .3rem;
 }
 
 .aside {
