@@ -50,9 +50,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
   Dependencies required:
    * react
    * react-dom
+   * react-scripts
    * @testing-library/jest-dom
    * @testing-library/react
    * @testing-library/user-event
+   * gh-pages
    * web-vitals
   
 ## Contributing
