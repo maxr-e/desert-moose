@@ -1,12 +1,4 @@
-import logo from "../src/images/logo.svg";
-import cute from "../src/images/cute-moose-flat.svg";
 import "./App.css";
-// import reactPdfEmbed from "./util/reactPdfEmbed.js";
-// import PDFViewerif from "./components/iframepdf.js";
-// import PDFViewer from "./components/reactpdf.js";
-// import PDFWorker from "./components/reactpdfworker.js";
-// import PDFViewerDist from "./components/pdfjsDist.js";
-
 
 import profilePic from "../src/images/mre_profile.png"
 import movieGeek from "../src/images/moviegeek.png";
@@ -19,13 +11,9 @@ import jsLogo from "../src/images/js_logo_svg.svg"
 import nodeLogo from "../src/images/node_js_logo.svg"
 import reactLogo from "../src/images/reactLogo.svg"
 import MySQLLogo from "../src/images/mysql-official.svg"
-import mongoLogoDark from "../src/images/MongoDB_Fores-Green.svg"
+// import mongoLogoDark from "../src/images/MongoDB_Fores-Green.svg"
 import mongoLogoLite from "../src/images/MongoDB_Spring-Green.svg"
 import arcLogo from "../src/images/ArcGIS_logo_240.png"
-// import githubLogo from "../public/logos/github.svg"
-// import linkedinLogo from "../public/logos/linked-in.svg"
-import moon_phase from "../src/images/moon-phase-oakland-screen.png";
-
 
 function App() {
   return (
@@ -57,18 +45,18 @@ function App() {
           <img src={profilePic} alt="Portrait of Max"></img>
           <div className="about-body">
             <p>
-              I've had a pretty eclectic life. Pet supply sales, animal clinic
+              I've led a pretty eclectic life. Pet supply sales, animal clinic
               assistant, university housing counselor, pedicab operator, science
               instructor, municipal aquarium volunteer, wood boat renovator,
               construction project bid facilitator, water service technician,
               water system inspector, handyman... all experiences that have
               given me a well-rounded set of hard and soft skills. But the one
               constant interest in my life that has had an effect in everything
-              I set myself to is... programming! GIS/GPS projects with
+              I set myself to is programming. GIS/GPS projects with
               pedicabbing and sailing, automation with aquarium and construction
               project analysis, coding with water service technology, handheld
               sensors and sales databases- all roads lead to Rome, and my Rome
-              is programming!
+              is <b>programming</b>!
             </p>
           </div>
         </div>
@@ -305,18 +293,18 @@ function App() {
         </h2>
         <div className="footer">
           <div className="contact-methods">
-            <p>Email me at maxroyal.eisenberg@gmail.com, find me at LinkedIn and
-            GitHub, and give me a shout at X (formerly Twitter)</p>
+            <p>Email me at <a href="mailto:maxroyal.eisenberg@gmail.com">maxroyal.eisenberg@gmail.com</a>, find me at GitHub and
+            LinkedIn, and give me a shout at X (formerly Twitter)</p>
           </div>
           <div className="contact-icons">
-            <a href="https://github.com/maxr-e" target="_blank">
-              <img src="/logos/github.svg" />
+            <a href="https://github.com/maxr-e" target="_blank" rel="noreferrer">
+              <img alt="Octocat logo" src="/logos/github.svg" />
             </a>
-            <a href="https://www.linkedin.com/in/maximilian-r-e" target="_blank">
-              <img src="/logos/linked-in.svg" />
+            <a href="https://www.linkedin.com/in/maximilian-r-e" target="_blank" rel="noreferrer">
+              <img alt="LinkedIn 'In' block logo" src="/logos/linked-in.svg" />
             </a>
-            <a href="https://twitter.com/mx_mxwell" target="_blank">
-              <img className="xx"src="/logos/x_logo.svg" />
+            <a href="https://twitter.com/mx_mxwell" target="_blank" rel="noreferrer">
+              <img className="xx" alt="X logo, the letter X" src="/logos/x_logo.svg" />
             </a>
           </div>
           {/* <aside className="aside">
