@@ -14,6 +14,10 @@ import MySQLLogo from "../src/images/mysql-official.svg"
 // import mongoLogoDark from "../src/images/MongoDB_Fores-Green.svg"
 import mongoLogoLite from "../src/images/MongoDB_Spring-Green.svg"
 import arcLogo from "../src/images/ArcGIS_logo_240.png"
+import githubLogo from "../src/images/logos/github.svg"
+import linkedinLogo from "../src/images/logos/linked-in.svg"
+import xLogo from "../src/images/logos/x_logo.svg"
+import resumePDF from "../src/Royal-Eisenberg_Resume.pdf"
 
 function App() {
   return (
@@ -278,12 +282,12 @@ function App() {
           </div>
           <div className="embedded-resume-box">
             <embed
-              src="/Royal-Eisenberg_Resume.pdf"
+              src={resumePDF}
               type="application/pdf"
               id="pdf-container"
             />
           </div>
-          <a href="/Royal-Eisenberg_Resume.pdf" download id="download-link-btn">
+          <a href={resumePDF} download id="download-link-btn">
             Download Resume
           </a>
         </div>
@@ -298,13 +302,13 @@ function App() {
           </div>
           <div className="contact-icons">
             <a href="https://github.com/maxr-e" target="_blank" rel="noreferrer">
-              <img alt="Octocat logo" src="/logos/github.svg" />
+              <img alt="Octocat logo" src={githubLogo} />
             </a>
             <a href="https://www.linkedin.com/in/maximilian-r-e" target="_blank" rel="noreferrer">
-              <img alt="LinkedIn 'In' block logo" src="/logos/linked-in.svg" />
+              <img alt="LinkedIn 'In' block logo" src={linkedinLogo}/>
             </a>
             <a href="https://twitter.com/mx_mxwell" target="_blank" rel="noreferrer">
-              <img className="xx" alt="X logo, the letter X" src="/logos/x_logo.svg" />
+              <img className="xx" alt="X logo, the letter X" src={xLogo} />
             </a>
           </div>
           {/* <aside className="aside">
