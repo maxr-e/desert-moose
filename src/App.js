@@ -121,7 +121,7 @@ function App() {
               <div className="project-header">
                 <h3>
                   <a
-                    href="https://ancient-ravine-85592.herokuapp.com/"
+                    href="https://stargazers-fa0c4ac02f6b.herokuapp.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -145,6 +145,35 @@ function App() {
               </div>
             </div>
           </div>
+          {/* <div className="project-card-wrapper">
+            <div className="project-card">
+              <div className="project-header">
+                <h3>
+                  <a
+                    href="https://ancient-ravine-85592.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Santa 1000
+                  </a>
+                </h3>
+                <p>
+                  A group project that utilizes the full MERN stack to deliver
+                  an app that lets users explore the night sky via stars,
+                  constellations, moon phase calendars and other celestial
+                  events.
+                </p>
+              </div>
+              <div className="project-image">
+                <img
+                  src={main_screen}
+                  alt="Screenshot the main page of Star Gazers"
+                  height="80px"
+                  width="auto"
+                ></img>
+              </div>
+            </div>
+          </div> */}
         </div>
         <h2 id="resume">
           <b>RESUME</b>
